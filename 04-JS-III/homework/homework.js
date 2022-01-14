@@ -269,14 +269,15 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var array = [];
-  var contador = 0;
+  //var contador = 0;
   for (var i = 0; i < 10; i++) {
     if (i===5) {
       continue;
     }
     numero = numero + 2;
-    array[contador] = numero;
-    contador ++;
+    array.push(numero);
+    //array[contador] = numero;
+    //contador ++;
   }
   return array;
 }
