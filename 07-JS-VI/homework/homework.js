@@ -57,17 +57,17 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 
-  /*  var array2 = [];
-      array.map(function(element){
-        if (element.charAt(0)==='a') {
-        array2.push(element);}
-      });  
-  */
-
-  var array2 = array.filter(function(element){
+  var array2 = [];
+    array.map(function(element){
+    if (element.charAt(0)==='a') {
+    array2.push(element);}
+    });  
+  
+  /*var array2 = array.filter(function(element){
    if (element.charAt(0)==='a') {
      return element;}
-    });
+    });*/
+    
   return array2;
 }
 
