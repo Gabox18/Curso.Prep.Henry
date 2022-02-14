@@ -1,0 +1,48 @@
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    width: 500px;
+    height: 600px;
+    background-color: #e3e3ee;
+    padding: 50px;
+    border: 5px solid #9975ee;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+/*creditos adicional*/
+
+body{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/669/718/325/nature-mountains-waterfall-clouds-wallpaper-preview.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+div{
+    margin: auto;
+}
+.divClass{
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+h2,h4{
+    width: 50%;
+    margin: auto;
+    background-color: #9975ee;
+}
+
+#spanId{
+    background-color: white;
+    font-size: 16px;
+    
+}
+li{
+    margin: auto;
+    margin-bottom: 60px;
+}
